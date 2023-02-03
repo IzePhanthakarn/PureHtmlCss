@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.bg{
+.bg {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.frame{
+.frame {
     background: #dc1446;
     border-radius: 15px;
     width: 400px;
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-.logo{
+.logo {
     margin: auto;
     background: snow;
     padding: 10px 20px;
@@ -30,7 +30,7 @@
     font-size: 36px;
 }
 
-.br{
+.br {
     height: 7px;
     width: 40%;
     border-radius: 5px;
@@ -38,44 +38,44 @@
     margin: 20px auto;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
 }
 
-label{
+label {
     color: #fff;
     margin: 5px 0;
 }
 
-input{
+input {
     height: 30px;
     border-radius: 5px;
     border: none;
     padding: 0 10px;
 }
 
-button{
+button {
     margin: 20px auto 10px;
     width: 50%;
     height: 30px;
 }
 
-a{
+a {
     margin: 0 auto;
     width: 50%;
     text-align: center;
     color: snow;
 }
 
-.button-area{
+.button-area {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.button{
+.button {
     width: 40%;
     margin: 20px auto 10px;
     background: #FFF;
@@ -86,4 +86,207 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+nav {
+    background: rgb(231, 198, 163);
+    padding: 20px 40px;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    margin: 0 10px;
+}
+
+nav>ul>li>a {
+    background: #FFF;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.announcement .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgb(220, 220, 220);
+}
+
+.announcement-list {
+    margin: 20px 0 20px 50px;
+    list-style-type: square;
+}
+
+.announcement-list>li>p {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    background: #000;
+}
+
+.info span {
+    margin: 0 20px;
+    color: #FFF;
+    font-size: 32px;
+    border: #FFF 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+i {
+    font-size: 80px;
+    color: #FFF;
+}
+
+.link .container {
+    padding: 0px;
+}
+
+.link .container .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link .container p {
+    white-space: nowrap;
+}
+
+.link .container a {
+    background: #dc1446;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.link .container a:hover {
+    background: #b9113b;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: rgb(220, 220, 220);
+    padding-bottom: 20px;
+}
+
+footer .logo {
+    width: 25%;
+    background: rgb(220, 220, 220);
+    margin-top: 20px;
+}
+
+footer .logo p {
+    margin: 0;
+    text-align: left;
+}
+
+footer .contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contact .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .contact .contact-1 {
+    width: 50%;
+}
+
+footer .contact .contact-2 {
+    width: 50%;
+}
+
+.contact .title {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+footer .contact-more {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 20px;
+}
+
+footer .contact-more ul {
+    list-style-type: none;
+}
+
+footer .contact-more ul>li {
+    margin: 5px 0;
+}
+
+footer .contact .content ul {
+    list-style-type: none;
+}
+
+footer .contact .content p {
+    margin: 0;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.copy-right {
+    width: 100%;
+    background: #000;
+    padding: 20px;
+    color: #FFF;
+}
+
+.copy-right p {
+    text-align: left;
+    margin: 0;
+}
+
+.copy-right p>i {
+    font-size: 20px;
 }
